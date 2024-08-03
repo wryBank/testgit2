@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/LocaleKeys/LocaleKeys.dart';
+import 'package:flutter_application_1/generated/locale_keys.g.dart';
+
 
 class homePage extends StatefulWidget {
   const homePage({super.key});
@@ -15,7 +16,7 @@ class _homePageState extends State<homePage> {
   {
     return Scaffold(
         appBar: AppBar(
-          title: Text("home"),
+          title: Text("s"),
         ),
         body: Center(
           child: Text(tr(LocaleKeys.app_title)),
