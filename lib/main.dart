@@ -4,6 +4,7 @@ import 'package:flutter_application_1/LocaleKeys/LocaleKeys.dart';
 import 'package:flutter_application_1/support/SupportedLocale.dart';
 
 void main() async {
+  //test
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
   runApp(EasyLocalization(
