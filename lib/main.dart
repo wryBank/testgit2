@@ -6,6 +6,7 @@ import 'package:flutter_application_1/shared/navigation_service.dart';
 import 'package:flutter_application_1/support/SupportedLocale.dart';
 
 void main() async {
+  //test
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
   runApp(EasyLocalization(
