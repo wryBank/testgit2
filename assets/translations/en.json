@@ -4,11 +4,11 @@
     "changeLang": "เปลี่ยนภาษา",
     "description": "You have pushed the button this many times",
     "increment": "Increment",
-    "counter": {
-      "zero": "{} times",
-      "one": "{} time",
-      "two": "{} times",
-      "other": "{} times"
+    "decrement": "decrement",
+    "otp":{
+      "login": "login",
+      "otp": " otp",
+      "otp_phone":" otp phone"
     }
   }
 }

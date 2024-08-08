@@ -36,6 +36,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   easy_localization: ^3.0.7
+  bloc: ^8.1.4
+  http: ^1.2.2
+  flutter_bloc: ^8.1.6
+  dio: ^5.5.0+1
+  dartz: ^0.10.1
 
 
 dev_dependencies:
@@ -60,11 +65,11 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-   - assets/lang/en.json
-   - assets/lang/th.json
-    # - assets/translations/
-    # - assets/translations/th.json
-    # - assets/translations/en.json
+  #  - assets/lang/en.json
+  #  - assets/lang/th.json
+    - assets/translations/
+    - assets/translations/th.json
+    - assets/translations/en.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:
