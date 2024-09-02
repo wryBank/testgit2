@@ -41,6 +41,12 @@ dependencies:
   flutter_bloc: ^8.1.6
   dio: ^5.5.0+1
   dartz: ^0.10.1
+  path_provider: ^2.1.4
+  build_runner: ^2.4.11
+  permission_handler: ^11.3.1
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+  rxdart: ^0.28.0
 
 
 dev_dependencies:
@@ -68,8 +74,8 @@ flutter:
   #  - assets/lang/en.json
   #  - assets/lang/th.json
     - assets/translations/
-    - assets/translations/th.json
-    - assets/translations/en.json
+    # - assets/translations/th.json
+    # - assets/translations/en.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:
